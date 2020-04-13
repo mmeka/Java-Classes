@@ -9,6 +9,7 @@ Usage of this(); and super(); must be within the constructor. Elsewhere usage re
 super and this keywords can be used anywhere except static areas.
 When a this(); is called from another constrcutor, controller will call that no-arg constrcutor and then executes the remaining lines inside the calling constructor.
 Purpose of having a constructor inside an abrstract class is to have it called from instantiation of child classed so that any instance variables inside that abstract class gets initialized.
+"Recursive constructor invocation" - is a compile time error when two constructors are recusively calling each other.
 
 How to validate the data inside a constructor and prevent the object creation??
 Difference between "return this;" and "return this();"??
