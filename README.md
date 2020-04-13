@@ -11,6 +11,7 @@ When a this(); is called from another constrcutor, controller will call that no-
 Purpose of having a constructor inside an abrstract class is to have it called from instantiation of child classed so that any instance variables inside that abstract class gets initialized.
 "Recursive constructor invocation" - is a compile time error when two constructors are recusively calling each other.
 When a class is defined with no no-arg constuctor, a child class is required to have a constructor defined with an explicit call to the parameterized constrcutor.
+If the parent class constrcutor throws a checked exception, it's required to have the child class constrcutor with super(); statement to have declared with a throws declaration of to have same exception or it's parent exception.
 
 How to validate the data inside a constructor and prevent the object creation??
 Difference between "return this;" and "return this();"??
