@@ -29,4 +29,9 @@ While declaraing explicit imports as "import java.util.* ", only the classes wit
 
 
 # Classes
-Allowed access modifiers are - public, (default), abstract, final, strictfp.
+Allowed access modifiers are - public, (default), abstract, final and strictfp.
+
+# Adapter classes
+
+# Inner Classes
+Allowed access modifiers are - public, (default), abstract, final, strictfp, private, protected and static.
