@@ -14,3 +14,4 @@ How to validate the data inside a constructor and prevent the object creation??
 Difference between "return this;" and "return this();"??
 What's the behavior during object creation when the access modifier of the class is different from the constructor within?
 How varargs constrcutor is executed when defined alongside other parameterized constrcutors?
+Isn't it possible to have a class to extend another class that doesn't have a no-arg constrcutor defined??
