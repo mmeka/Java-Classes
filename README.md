@@ -10,9 +10,10 @@ super and this keywords can be used anywhere except static areas.
 When a this(); is called from another constrcutor, controller will call that no-arg constrcutor and then executes the remaining lines inside the calling constructor.
 Purpose of having a constructor inside an abrstract class is to have it called from instantiation of child classed so that any instance variables inside that abstract class gets initialized.
 "Recursive constructor invocation" - is a compile time error when two constructors are recusively calling each other.
+When a class is defined with no no-arg constuctor, a child class is required to have a constructor defined with an explicit call to the parameterized constrcutor.
 
 How to validate the data inside a constructor and prevent the object creation??
 Difference between "return this;" and "return this();"??
 What's the behavior during object creation when the access modifier of the class is different from the constructor within?
 How varargs constrcutor is executed when defined alongside other parameterized constrcutors?
-Isn't it possible to have a class to extend another class that doesn't have a no-arg constrcutor defined??
+
